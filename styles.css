@@ -3,7 +3,22 @@ body {
 }
 
 section {
+    margin-top: 42px;
     padding-top: 128px;
+    color: #F875AA;
+    position: relative;
+}
+
+section::before {
+    z-index: -1;
+    content: '';
+    font-size: 72px;
+    color: #F875AA;
+    opacity: 0.25;
+    position: absolute;
+    font-weight: 700;
+    top: 20px;
+    left: -30px;
 }
 
 .btn {
@@ -12,7 +27,7 @@ section {
     color: #F875AA;
 }
 
-.btn:hover {
+.btn:hover, .btn.active {
     background-color: #F875AA;
     color: #FFF6F6;
 }
@@ -36,9 +51,7 @@ section {
     color: #FFF6F6;
 }
 
-.home {
-    color: #F875AA;
-}
+
 .home h1 {
     font-size: 54px;
 }
@@ -76,6 +89,25 @@ section {
 .home .arrow h6 {
     margin: 0;
 }
+
+.about::before {
+    content: "About";
+}
+
+.about-exp-item {
+    margin-top: 32px;
+}
+
+.about-exp-item-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-exp-item-detail {
+    display: none;
+}
+
 
 @keyframes upDown {
     0% {
