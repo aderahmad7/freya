@@ -9,7 +9,5 @@ function toogleDetail(e) {
         $(target).html("Less Info").addClass("active")
     }
 
-
     $(detail).slideToggle()
-    
 }
