@@ -11,3 +11,23 @@ function toogleDetail(e) {
 
     $(detail).slideToggle()
 }
+
+function onFormSubmit(e) {
+    e.preventDefault()
+    const email = $("#input_email")
+    const subject = $("#input_subject")
+    const message = $("#input_messagge")
+
+    if ($(email).val() && $(subject).val() && $(message).val()) {
+        alert("Pesan terkirim")
+        console.log($(email))
+        console.log($(subject))
+        console.log($(message))
+    } else {
+        alert("Isi form dengan lengkap")
+    }
+
+    
+    
+
+}

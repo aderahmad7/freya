@@ -183,6 +183,25 @@ header {
     content: '11th anniversary JKT48';
 }
 
+.contact::before {
+    content: 'Contact';
+}
+
+.form-control {
+    background-color: #AEDEFC;
+    border: 2px solid #F875AA;
+}
+
+.contact-form {
+    border: 2px solid #F875AA;
+    border-radius: 24px;
+    padding: 54px 32px;
+}
+
+.contact-form button {
+    text-align: center;
+}
+
 @keyframes upDown {
     0% {
         transform: translateY(0);
