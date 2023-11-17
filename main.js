@@ -18,14 +18,12 @@ function onFormSubmit(e) {
     const subject = $("#input_subject")
     const message = $("#input_messagge")
 
-    if ($(email).val() && $(subject).val() && $(message).val()) {
+    
         alert("Pesan terkirim")
-        console.log($(email))
-        console.log($(subject))
-        console.log($(message))
-    } else {
-        alert("Isi form dengan lengkap")
-    }
+        console.log($(email).val())
+        console.log($(subject).val())
+        console.log($(message).val())
+    
 
     
     

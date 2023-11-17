@@ -70,7 +70,7 @@ header {
     font-size: 18px;
 }
 
-.home .row .col-4 img {
+.home .row img {
     height: 350px; 
     width: 350px; 
     border-radius: 50%;
@@ -78,6 +78,7 @@ header {
     object-position: center;
     overflow: hidden;
 }
+
 
 
 .home .arrow img {
@@ -200,6 +201,15 @@ header {
 
 .contact-form button {
     text-align: center;
+}
+
+footer {
+    margin-top: 48px;
+    padding: 20px;
+    background-color: #F875AA;
+    color: #FFF6F6;
+    text-align: center;
+    font-weight: bold;
 }
 
 @keyframes upDown {
